@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eclipse-DSA.iml" filepath="$PROJECT_DIR$/Eclipse-DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eclipse-dsa/Seraching/Seraching.iml" filepath="$PROJECT_DIR$/eclipse-dsa/Seraching/Seraching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eclipse-dsa/cashe/cashe.iml" filepath="$PROJECT_DIR$/eclipse-dsa/cashe/cashe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eclipse-dsa/dsa/dsa.iml" filepath="$PROJECT_DIR$/eclipse-dsa/dsa/dsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eclipse-dsa/dsa1/dsa1.iml" filepath="$PROJECT_DIR$/eclipse-dsa/dsa1/dsa1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eclipse-dsa/interview_question/interview_question.iml" filepath="$PROJECT_DIR$/eclipse-dsa/interview_question/interview_question.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eclipse-dsa/sorting/sorting.iml" filepath="$PROJECT_DIR$/eclipse-dsa/sorting/sorting.iml" />
+    </modules>
+  </component>
+</project>

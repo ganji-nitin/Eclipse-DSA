@@ -6,25 +6,25 @@ public class ArraysPrograms {
 
 	public static void main(String[] args) {
 //		arrays1();
-		array2();
-//		array3();
+//		array2();
+		System.out.println(array3());
 	}
 
 	public static void arrays1() {
 		int[] arr = { 11, 222, 33, 444, 5555, 6, 7777 };
-		ArrayList<Integer> list = new ArrayList<Integer>();
+		ArrayList<Integer> list = new ArrayList<>();
 
-		for (int i = 0; i < arr.length; i++) {
-			int num = arr[i];
-			int count = 0;
-			while (num != 0) {
-				count++;
-				num = num / 10;
-			}
-			if (count < 3) {
-				list.add(arr[i]);
-			}
-		}
+        for (int j : arr) {
+            int num = j;
+            int count = 0;
+            while (num != 0) {
+                count++;
+                num = num / 10;
+            }
+            if (count < 3) {
+                list.add(j);
+            }
+        }
 
 		System.out.println(list);
 	}
@@ -40,14 +40,14 @@ public class ArraysPrograms {
 				}
 			}
 		}
-		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i]);
-		}
+        for (int j : arr) {
+            System.out.println(j);
+        }
 	}
 	
 	public static Integer array3() {
 		Integer[] arr = {1,9,5,6,3,2};
-		Integer maxNumber = Integer.MIN_VALUE;
+		int maxNumber = Integer.MIN_VALUE;
 		for(Integer i : arr) {
 			if(i > maxNumber) {
 				maxNumber = i;
